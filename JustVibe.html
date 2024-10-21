@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREQUENCY</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap" rel="stylesheet">
+    <script src = "styles.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo"><img id = "background-img" src = "images/background.jpg">
+        <span id = "frequency" href="#title">FREQUENCY</span></div>
+
+        <div class = "hamburger" id = "hamburger">
+            <i class="bars"></i>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#home">
+                        <span class="sb home"></span>
+                        <span>Home</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#playlists">
+                        <span class="sb playlists"></span>
+                        <span>Playlists</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#albums">
+                        <span class="sb albums"></span>
+                        <span>Albums</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="policies">
+            <ul>
+                <li>
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="">Terms of Service</a>
+                </li>
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            
+        </div>
+
+        <div class="song-playlists">
+            <h2>Something New</h2>
+
+            <div class="list">
+                <div class="song">
+                    <img class = "song-image" src ="images/the-crane-wives.png" alt= "Sleeping Giants By The Crane Wives"/>
+                    <audio class = "song-audio" src="mp3/Sleeping Giants.mp3" preload=""></audio>
+                    <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                    <h4>Sleeping Giants</h4>
+                    <p>The Crane Wives</p>
+                </div>
+
+                <div class="song">
+                    <img class = "song-image" src = "images/cowboy-malfoy.jpg" alt = "How I'd Kill By Cowboy Malfoy"/>
+                    <audio class = "song-audio" src="mp3/How I'd Kill.mp3" preload=""></audio>
+                    <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                    <h4>How I'd Kill</h4>
+                    <p>Cowboy Malfoy</p>
+                </div>
+
+                <div class="song">
+                    <img class = "song-image" src = "images/avenged-sevenfold.png" alt = "Acid Rain By Avenged Sevenfold"/>
+                    <audio class = "song-audio" src="mp3/Acid Rain.mp3" preload=""></audio>
+                    <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                    <h4>Acid Rain</h4>
+                    <p>Avenged Sevenfold</p>
+                </div>
+
+                <div class="song">
+                    <img class = "song-image" src = "images/arctic-monkeys.jpg" alt = "Stop The World I Wanna Get Off With You By Arctic Monkeys"/>
+                    <audio class = "song-audio" src="mp3/Arctic Monkeys - Stop The World I Wanna Get Off With You (Official Audio).mp3" preload=""></audio>
+                    <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                    <h4>Stop the World I Wanna Get Off With You</h4>
+                    <p>Arctic Monkeys</p>
+                </div>
+
+                <div class="song">
+                    <img class = "song-image" src = "images/kendrick-lamar.jpg" alt = "Now Or Never (Bonus Track) By Kendrick Lamar"/>
+                    <audio class = "song-audio" src="mp3/Now Or Never (Bonus Track).mp3" preload=""></audio>
+                    <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                    <h4>Now Or Never (Bonus Track)</h4>
+                    <p>Kendrick Lamar</p>
+                </div>
+
+                <div class="song">
+                    <img class = "song-image" src = "images/tame-impala.png" alt = "New Person, Same Old Mistakes By Tame Impala"/>
+                    <audio class = "song-audio" src="mp3/New Person, Same Old Mistakes.mp3" preload=""></audio>
+                    <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                    <h4>New Person, Same Old Mistakes</h4>
+                    <p>Tame Impala</p>
+                </div>
+
+                <div class="song">
+                    <img class = "song-image" src = "images/alyson.jpg" alt = "Kiliti By ALYSON"/>
+                    <audio class = "song-audio" src="mp3/ALYSON - Kiliti (Official Lyric Video).mp3" preload=""></audio>
+                    <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                    <h4>Kiliti</h4>
+                    <p>ALYSON</p>
+                </div>
+
+                <div class="song">
+                    <img class = "song-image" src = "images/adie.png" alt = "Kursunada By Adie"/>
+                    <audio class = "song-audio" src="mp3/Adie - Kursunada (Official Audio).mp3" preload=""></audio>
+                    <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                    <h4>Kursunada</h4>
+                    <p>Adie</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="song-playlists">
+            <h2>Just Vibes</h2>
+
+            <div class = "shadow-scroll-x">
+                <div class="list">
+                    <div class="song">
+                        <img class = "song-image" src ="images/luke-chiang.png" alt= "Shouldn't Be By Luke Chiang"/>
+                        <audio class = "song-audio" src="mp3/Shouldn't Be.mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Shouldn't Be</h4>
+                        <p>Luke Chiang</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/khamari.png" alt = "These Four Walls By Khamari"/>
+                        <audio class = "song-audio" src="mp3/Khamari - These Four Walls (Official Video).mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>These Four Walls</h4>
+                        <p>Khamari</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/jay-safari.png" alt = "Led Me On By Jay Safari"/>
+                        <audio class = "song-audio" src="mp3/Led Me On.mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Led Me On</h4>
+                        <p>Jay Safari</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/sleep-token.png" alt = "Take Me Back to Eden By Sleep Token"/>
+                        <audio class = "song-audio" src="mp3/Sleep Token - Take Me Back To Eden.mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Take Me Back To Eden</h4>
+                        <p>Sleep Token</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/alyson.jpg" alt = "Feels So Good feat. beabu"/>
+                        <audio class = "song-audio" src="mp3/ALYSON - Feels So Good feat. beabu (Official Lyric Video).mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Feels So Good feat. beabu</h4>
+                        <p>ALYSON</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/grent-perez.png" alt = "Silver Lining By Grent Perez"/>
+                        <audio class = "song-audio" src="mp3/Silver Lining.mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Silver Lining</h4>
+                        <p>Grent Perez</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/the-happy-fits.png" alt = "Mary By The Happy Fits"/>
+                        <audio class = "song-audio" src="mp3/The Happy Fits - Mary (Official Audio).mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Mary</h4>
+                        <p>The Happy Fits</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/jorge-rivera-herrans.jpg" alt = "No Longer You By Jorge Rivera-Herrans"/>
+                        <audio class = "song-audio" src="mp3/No Longer You.mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>No Longer You</h4>
+                        <p>Jorge Rivera-Herrans</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="song-playlists">
+            <h2>Playlists</h2>
+
+            <div class = "shadow-scroll-x3" style="width: 870px">
+                <div class="list">
+                    <div class="song">
+                        <img class = "song-image" src ="images/jungle.png" alt= "Dominoes By Jungle"/>
+                        <audio class = "song-audio" src="mp3/Jungle - Dominoes (Official Video).mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Dominoes</h4>
+                        <p>Jungle</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/billie-eilish.png" alt = "CHIHIRO By Billie Eilish"/>
+                        <audio class = "song-audio" src="mp3/Billie Eilish - CHIHIRO (Official Lyric Video).mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>CHIHIRO</h4>
+                        <p>Billie Eilish</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/tame-impala2.png" alt = "Borderline By Tame Imapala"/>
+                        <audio class = "song-audio" src="mp3/Tame Impala - Borderline (Official Audio).mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Borderline</h4>
+                        <p>Tame Impala</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/michael-jackson.jpg" alt = "Off the Wall By Michael Jackson"/>
+                        <audio class = "song-audio" src="mp3/Michael Jackson - Off the Wall (Audio).mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Off the Wall</h4>
+                        <p>Michael Jackson</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/belly.jpg" alt = "Belly By Might Not (feat. The Weeknd)
+                        "/>
+                        <audio class = "song-audio" src="mp3/Belly - Might Not (feat. The Weeknd).mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Might Not (feat. The Weeknd)</h4>
+                        <p>Belly </p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/jay-safari.png" alt = "Led Me On By Jay Safari"/>
+                        <audio class = "song-audio" src="mp3/Led Me On.mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Led Me On</h4>
+                        <p>Jay Safari</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/jay-safari.png" alt = "Led Me On By Jay Safari"/>
+                        <audio class = "song-audio" src="mp3/Led Me On.mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Led Me On</h4>
+                        <p>Jay Safari</p>
+                    </div>
+
+                    <div class="song">
+                        <img class = "song-image" src = "images/jay-safari.png" alt = "Led Me On By Jay Safari"/>
+                        <audio class = "song-audio" src="mp3/Led Me On.mp3" preload=""></audio>
+                        <button class = "btn" onclick="togglePlay(this)">Play</button>
+
+                        <h4>Led Me On</h4>
+                        <p>Jay Safari</p>
+                    </div>
+                </div>
+        </div>
+
+        <footer>
+            <span>© 2024 FREQUENCY | Designed by <a href = "https://github.com/Bagziel" target = "_blank" id="profile">Music Lover</a> </span>
+        </footer>
+    </div>
+
+    <script>
+        function togglePlay(button) {
+            var audio = button.previousElementSibling;
+            if (audio.paused) {
+                audio.play();
+                button.textContent = "Pause";
+            } else {
+                audio.pause();
+                button.textContent = "Play";
+            }
+        }
+    </script>
+</body>
+</html>
